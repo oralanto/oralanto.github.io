@@ -11,7 +11,6 @@ function App() {
     <Accueil />
     <Presentation />
     <Competences />
-    <Competences />
     <Footer />
     </div>
   );
