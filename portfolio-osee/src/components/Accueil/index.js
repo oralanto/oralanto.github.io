@@ -1,4 +1,3 @@
-import logo from './OR-logo.png';
 import linkedin from './linkedin.svg';
 import './style.css';
 
@@ -6,10 +5,7 @@ const Accueil = () => {
   return (
     <div className="Accueil">
       <header className="header">
-        <img
-          className="logo"
-          src={logo}
-          alt="logo" />
+        <p className="logo">O.R</p>
         <menu className="menu">
           <p className="menu-item disabled">Accueil</p>
           <p className="menu-item disabled">Présentation</p>
