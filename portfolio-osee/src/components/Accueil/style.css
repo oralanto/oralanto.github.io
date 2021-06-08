@@ -1,9 +1,11 @@
 .Accueil {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-color: black;
   color: aliceblue;
-  border: black solid 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .header {
@@ -14,7 +16,6 @@
 
 .logo {
   width: 10%;
-  height: 10%;
   font-size: 3em;
   color: blueviolet;
 }
@@ -43,7 +44,6 @@
 }
 
 .infos {
-  border: black solid 1px;
   padding: 3em;
 }
 
@@ -56,24 +56,30 @@
   font-size: 3em;
 }
 
-.linkedin-link {
-  display: flex;
-  flex-direction: column;
-  text-decoration: none;
-  color: aliceblue;
-  padding: 0;
-  margin: auto;
-}
-
 .linkedin {
   width: 20%;
   margin: auto;
   padding: 1em;
 }
 
-.linkedin-text {
-  margin: 1em;
+.linkedin-link {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: aliceblue;
+  margin: auto;
+  padding: 1em;
 }
+
+.linkedin-link:hover {
+  border: 3px solid #0477b7;
+  border-radius: 10px;
+}
+
+.linkedin-text {
+  margin: 1em 0 0 0;
+}
+
 /* Responsive */
 
 @media (max-width: 900px) {
@@ -83,5 +89,9 @@
 
   .menu {
     width: auto;
+  }
+
+  .name {
+    font-size: 3em;
   }
 }

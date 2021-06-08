@@ -14,14 +14,14 @@ const Accueil = () => {
         </menu>
       </header>
       <div className="infos">
-        <h1 className="name">Osée Ralantoarison </h1>
+        <h1 className="name">Osée Ralantoarison</h1>
         <h2 className="title-job">Développeur web</h2>
       </div>
       <div className="linkedin">
       <a
         className="linkedin-link"
         target="_blank"
-        rel="noopener"
+        rel="noreferrer"
         href="https://www.linkedin.com/in/os%C3%A9e-ralantoarison-2b2265195/"
       >
       <img
