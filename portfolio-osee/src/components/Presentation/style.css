@@ -2,16 +2,15 @@
   width: 100vw;
   height: 100vh;
   background-color: #41464b;
-  color: antiquewhite;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 1em;
+  padding: 2em;
 }
 
 .Presentation__title {
-  font-size: 3em;
-  font-weight: 700;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 5em;
 }
 
 .Presentation__text {

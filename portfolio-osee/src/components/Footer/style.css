@@ -1,3 +1,10 @@
 .Footer {
-  width: auto;
+  width: 100vw;
+  height: auto;
+  padding: 0.5em;
+  background-color: #232527;
+}
+
+.Footer__text {
+  font-size: 1.5em;
 }
