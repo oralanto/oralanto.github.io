@@ -2,6 +2,7 @@ import Accueil from './components/Accueil';
 import Presentation from './components/Presentation';
 import Competences from './components/Competences';
 import Footer from './components/Footer';
+import Projets from './components/Projets';
 
 import './App.css';
 
@@ -11,6 +12,7 @@ function App() {
     <Accueil />
     <Presentation />
     <Competences />
+    <Projets />
     <Footer />
     </div>
   );

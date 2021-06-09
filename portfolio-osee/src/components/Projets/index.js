@@ -1,0 +1,71 @@
+import Oboardgame from './Logo-oboardgame.png';
+
+import './style.css';
+
+const Projets = () => {
+  return (
+    <div className="Projets">
+      <h2 className="Projets__title">Projets</h2>
+      <div className="Projets__cards">
+        <div className="Projets__card">
+      <img
+          src={Oboardgame}
+          className="Projets__card__img"
+          alt="Icon linkedin made by Pixel perfect from www.flaticon.com" />
+          <p className="Projets__card__title">O'BoardGame</p>
+          <p className="Projets__card__desc">Projet de fin d'étude</p>
+      <a
+        className="Projets__card__link"
+        target="_blank"
+        rel="noreferrer"
+        href="https://github.com/oralanto/Projet-titre-pro"
+      >Voir le projet</a>
+        </div>
+        <div className="Projets__card">
+      <img
+          src={Oboardgame}
+          className="Projets__card__img"
+          alt="Icon linkedin made by Pixel perfect from www.flaticon.com" />
+          <p className="Projets__card__title">O'BoardGame</p>
+          <p className="Projets__card__desc">Projet de fin d'étude</p>
+      <a
+        className="Projets__card__link"
+        target="_blank"
+        rel="noreferrer"
+        href="https://github.com/oralanto/Projet-titre-pro"
+      >Voir le projet</a>
+        </div>
+        <div className="Projets__card">
+      <img
+          src={Oboardgame}
+          className="Projets__card__img"
+          alt="Icon linkedin made by Pixel perfect from www.flaticon.com" />
+          <p className="Projets__card__title">O'BoardGame</p>
+          <p className="Projets__card__desc">Projet de fin d'étude</p>
+      <a
+        className="Projets__card__link"
+        target="_blank"
+        rel="noreferrer"
+        href="https://github.com/oralanto/Projet-titre-pro"
+      >Voir le projet</a>
+        </div>
+        <div className="Projets__card">
+      <img
+          src={Oboardgame}
+          className="Projets__card__img"
+          alt="Icon linkedin made by Pixel perfect from www.flaticon.com" />
+          <p className="Projets__card__title">O'BoardGame</p>
+          <p className="Projets__card__desc">Projet de fin d'étude</p>
+      <a
+        className="Projets__card__link"
+        target="_blank"
+        rel="noreferrer"
+        href="https://github.com/oralanto/Projet-titre-pro"
+      >Voir le projet</a>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Projets;

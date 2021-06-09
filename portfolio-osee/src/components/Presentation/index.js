@@ -3,7 +3,7 @@ import './style.css';
 const Presentation = () => {
   return (
     <div className="Presentation">
-      <h1 className="Presentation__title">Présentation</h1>
+      <h2 className="Presentation__title">Présentation</h2>
       <p className="Presentation__text">Bonjour et bienvenue sur mon portfolio je m'appel Osée, j'ai 26 ans et
 je suis développeur web et web mobile junior.</p>
       <p className="Presentation__text">En reconversion dans l’informatique, j’ai commencé en 2019 à apprendre 

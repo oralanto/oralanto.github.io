@@ -14,8 +14,8 @@ const Accueil = () => {
         </menu>
       </header>
       <div className="infos">
-        <h1 className="name">Osée Ralantoarison</h1>
-        <h2 className="title-job">Développeur web</h2>
+        <h2 className="name">Osée Ralantoarison</h2>
+        <h1 className="title-job">Développeur web</h1>
       </div>
       <div className="linkedin">
       <a
@@ -26,7 +26,7 @@ const Accueil = () => {
       >
       <img
           src={linkedin}
-          alt="Icon made by Pixel perfect from www.flaticon.com" />
+          alt="Icon linkedin made by Pixel perfect from www.flaticon.com" />
           <p className="linkedin-text">Mon profil Linkedin</p>
       </a>
       </div>
