@@ -1,3 +1,5 @@
+import React from 'react';
+
 import github from './github.png'
 import './style.css';
 

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Oboardgame from './Logo-oboardgame.png';
 
 import './style.css';

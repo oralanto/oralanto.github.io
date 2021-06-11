@@ -1,3 +1,5 @@
+import React from 'react';
+
 import linkedin from './linkedin.svg';
 import './style.css';
 
