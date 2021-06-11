@@ -10,6 +10,7 @@ const Accueil = () => {
           <p className="menu-item disabled">Accueil</p>
           <p className="menu-item disabled">Présentation</p>
           <p className="menu-item disabled">Compétences</p>
+          <p className="menu-item disabled">Projets</p>
           <p className="menu-item">Contact</p>
         </menu>
       </header>
