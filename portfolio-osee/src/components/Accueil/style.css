@@ -93,4 +93,12 @@
     font-size: 3em;
     margin-bottom: .2em;
   }
+
+  .title-job {
+    font-size: 1.7em;
+  }
+
+  .linkedin {
+    width: auto;
+  }
 }
