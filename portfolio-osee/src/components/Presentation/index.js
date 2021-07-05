@@ -4,7 +4,7 @@ import './style.css';
 
 const Presentation = () => {
   return (
-    <div className="Presentation">
+    <div className="Presentation" id="presentation">
       <h2 className="Presentation__title">Présentation</h2>
       <p className="Presentation__text">Bonjour et bienvenue sur mon portfolio je m'appel Osée, j'ai 26 ans et
 je suis développeur web et web mobile junior.</p>

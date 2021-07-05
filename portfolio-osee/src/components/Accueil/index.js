@@ -1,19 +1,21 @@
 import React from 'react';
 
+// import moduleName from ''
+
 import linkedin from './linkedin.svg';
 import './style.css';
 
 const Accueil = () => {
   return (
-    <div className="Accueil">
+    <div className="Accueil" id="acceuil">
       <header className="header">
         <p className="logo">O.R</p>
         <menu className="menu">
-          <p className="menu-item disabled">Accueil</p>
-          <p className="menu-item disabled">Présentation</p>
-          <p className="menu-item disabled">Compétences</p>
-          <p className="menu-item disabled">Projets</p>
-          <p className="menu-item">Contact</p>
+          <a className="menu-item disabled" href="#accueil">Accueil</a>
+          <a className="menu-item disabled" href="#presentation">Présentation</a>
+          <a className="menu-item disabled" href="#competences">Compétences</a>
+          <a className="menu-item disabled" href="#projets">Projets</a>
+          <a className="menu-item" href="mailto:o.ralantoarison@gmail.com">Contact</a>
         </menu>
       </header>
       <div className="infos">

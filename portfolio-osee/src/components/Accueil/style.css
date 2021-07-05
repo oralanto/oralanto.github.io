@@ -34,6 +34,7 @@
   font-size: 1.3em;
   transition-duration: 150ms;
   color: #7511F6;
+  text-decoration: none;
 }
 
 .menu-item:hover {
