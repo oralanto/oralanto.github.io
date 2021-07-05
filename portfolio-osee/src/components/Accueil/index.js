@@ -31,7 +31,7 @@ const Accueil = () => {
       >
       <img
           src={linkedin}
-          alt="Icon linkedin made by Pixel perfect from www.flaticon.com" />
+          alt="Icon linkedin développeur web" />
           <p className="linkedin-text">Mon profil Linkedin</p>
       </a>
       </div>

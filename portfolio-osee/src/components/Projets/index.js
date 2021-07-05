@@ -12,11 +12,11 @@ const Projets = () => {
     <div className="Projets" id="projets">
       <h2 className="Projets__title">Projets</h2>
       <div className="Projets__cards">
-        <div className="Projets__card">
+        <article className="Projets__card">
       <img
           src={Oboardgame}
           className="Projets__card__img"
-          alt="Icon linkedin made by Pixel perfect from www.flaticon.com" />
+          alt="Projet location de jeux de sociétés entre particulier avec react node express redux api" />
           <p className="Projets__card__title">O'BoardGame</p>
           <p className="Projets__card__desc">Projet de fin d'étude</p>
       <a
@@ -25,35 +25,35 @@ const Projets = () => {
         rel="noreferrer"
         href="https://github.com/oralanto/Projet-titre-pro"
       >Voir le projet</a>
-        </div>
-        <div className="Projets__card">
+        </article>
+        <article className="Projets__card">
       <img
           src={Converter}
           className="Projets__card__img"
-          alt="Icon linkedin made by Pixel perfect from www.flaticon.com" />
+          alt="Convertisseur de monnaie devise projet react node api" />
           <p className="Projets__card__title">Converter</p>
-          <p className="Projets__card__desc">Projet spé react en formation: Convertisseur de devise</p>
+          <p className="Projets__card__desc">Projet React: Convertisseur de devise</p>
       <a
         className="Projets__card__link"
         target="_blank"
         rel="noreferrer"
         href="https://github.com/oralanto/Converter-projet-React"
       >Voir le projet</a>
-        </div>
-        <div className="Projets__card">
+        </article>
+        <article className="Projets__card">
       <img
           src={Chatroom}
           className="Projets__card__img"
-          alt="Icon linkedin made by Pixel perfect from www.flaticon.com" />
+          alt="Chatroom salon de chat messagerie projet react node" />
           <p className="Projets__card__title">Chatroom</p>
-          <p className="Projets__card__desc">Projet spé react en formation: Simulation de Chatroom</p>
+          <p className="Projets__card__desc">Projet React: Simulation de Chatroom</p>
       <a
         className="Projets__card__link"
         target="_blank"
         rel="noreferrer"
         href="https://github.com/oralanto/Chatroom-v1-React"
       >Voir le projet</a>
-        </div>
+        </article>
       </div>
       <div className="Projets__github">
       <a
@@ -64,7 +64,7 @@ const Projets = () => {
       >
       <img
           src={github}
-          alt="Icon made by Pixel perfect from www.flaticon.com" />
+          alt="Icon Github" />
           <p className="Projets__github__text">Mon Github</p>
       </a>
       </div>
