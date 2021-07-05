@@ -2,6 +2,7 @@
   width: 100%;
   height: 100vh;
   background-color: #232527;
+  background-image: url("./apple-desk.jpeg");
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -17,7 +18,7 @@
 .logo {
   width: 10%;
   font-size: 3em;
-  color: #7511F6;
+  color: #CECBC5;
 }
 
 .menu {
@@ -33,12 +34,12 @@
   font-weight: bold;
   font-size: 1.3em;
   transition-duration: 150ms;
-  color: #7511F6;
+  color: #CECBC5;
   text-decoration: none;
 }
 
 .menu-item:hover {
-  border: #7511F6 2px solid;
+  border: #CECBC5 2px solid;
 }
 
 .infos {
