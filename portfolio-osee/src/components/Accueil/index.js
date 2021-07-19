@@ -2,7 +2,7 @@ import React from 'react';
 
 // import moduleName from ''
 
-import linkedin from './linkedin.svg';
+import linkedin from '../../img/linkedin.svg';
 import './style.css';
 
 const Accueil = () => {

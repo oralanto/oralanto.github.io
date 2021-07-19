@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Oboardgame from './Logo-oboardgame.png';
-import Converter from './Converter-spe-react.png';
-import Chatroom from './Chatroom-spe-react.png';
-import github from './github.png'
+import Oboardgame from '../../img/Logo-oboardgame.png';
+import Converter from '../../img/Converter-spe-react.png';
+import Chatroom from '../../img/Chatroom-spe-react.png';
+import github from '../../img/github.png';
 
 import './style.css';
 

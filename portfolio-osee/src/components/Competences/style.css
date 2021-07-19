@@ -2,7 +2,7 @@
   width: 100%;
   height: 100vh;
   background-color: #232527;
-  background-image: url("./html-code.jpeg");
+  background-image: url("../../img/html-code.jpeg");
   padding: 1em;
   display: flex;
   flex-direction: column;
