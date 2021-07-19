@@ -1,7 +1,8 @@
 .Projets {
   width: 100%;
   height: auto;
-  background-color: #41464b;
+  background-image: url("./blob-scatter-haikei.svg");
+  background-size: contain;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

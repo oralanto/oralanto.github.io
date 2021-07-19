@@ -1,7 +1,6 @@
 .Accueil {
   width: 100%;
   height: 100vh;
-  background-color: #232527;
   background-image: url("./apple-desk.jpeg");
   display: flex;
   flex-direction: column;
