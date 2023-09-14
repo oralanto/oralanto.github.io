@@ -1,21 +1,33 @@
-import React from 'react';
-
-import './style.css';
+import React from "react";
+import "./style.css";
 
 const Presentation = () => {
   return (
     <div className="Presentation" id="presentation">
       <h2 className="Presentation__title">Présentation</h2>
-      <p className="Presentation__text">Bonjour et bienvenue sur mon portfolio je m'appel Osée, j'ai 26 ans et
-je suis développeur web.</p>
-      <p className="Presentation__text">En reconversion dans l’informatique, j’ai commencé en 2019 à apprendre
-la programmation en autodidacte sur différentes plateformes. Je me suis
-ensuite orienté web et intégré l’école O’clock pour une formation intensive
-en JavaScript avec spécialisation React. Je suis maintenant à la recherche
-de ma prochaine aventure pour faire grandir mon expérience dans le domaine
-de la programmation.</p>
+      <p className="Presentation__text">
+        Bonjour et bienvenue sur mon portfolio.
+      </p>
+      <p className="Presentation__text">
+        Je suis un développeur web avec une large gamme de compétences
+        techniques incluant React.js, Next.js, Tailwind, Storybook, Jest, SCSS,
+        JavaScript, MongoDB, Redux, Express, Node, Bootstrap, AWS, PostgreSQL,
+        Git, GitHub, Bitbucket, Jira, Agile et Storybook ainsi que le design
+        system.
+      </p>
+      <p className="Presentation__text">
+        Passionné par la technologie au sens large, j’aime l’aspect technique.
+        Je travaille dans le but d’apprendre et m’enrichir de connaissances.
+        J’aime délivrer un code propre, testé et documenté.
+      </p>
+      <p className="Presentation__text">
+        Disponible pour travailler en freelance ou CDI, en full remote ou proche
+        de chez moi (haute-savoie / Genève) avec une équipe passionné et
+        investi. N'hésitez pas à me contacter si vous cherchez un développeur
+        web pour votre projet.
+      </p>
     </div>
-  )
+  );
 };
 
 export default Presentation;
