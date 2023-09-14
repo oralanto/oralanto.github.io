@@ -20,7 +20,9 @@ const Competences = () => {
       <h2 className="Competences__title">Compétences</h2>
       <div className="Competences__list">
         {items.map((item) => (
-          <p className="Competences__item">{item}</p>
+          <p className="Competences__item" key={item}>
+            {item}
+          </p>
         ))}
       </div>
     </div>

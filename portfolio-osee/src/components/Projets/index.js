@@ -34,7 +34,7 @@ const Projets = () => {
       <h2 className="Projets__title">Projets</h2>
       <div className="Projets__cards">
         {projects.map(({ title, description, alt, href, src }) => (
-          <article className="Projets__card">
+          <article className="Projets__card" key={title}>
             <img src={src} className="Projets__card__img" alt={alt} />
             <p className="Projets__card__title">{title}</p>
             <p className="Projets__card__desc">{description}</p>

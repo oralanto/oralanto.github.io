@@ -32,7 +32,7 @@ const Accueil = () => {
         <p className="logo">O.R</p>
         <menu className="menu">
           {menuItems.map(({ href, text }) => (
-            <a className="menu-item disabled" href={href}>
+            <a className="menu-item disabled" href={href} key={text}>
               {text}
             </a>
           ))}
