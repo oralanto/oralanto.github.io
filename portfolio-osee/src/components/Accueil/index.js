@@ -29,7 +29,7 @@ const Accueil = () => {
   return (
     <div className="Accueil" id="acceuil">
       <header className="header">
-        <p className="logo">O.R</p>
+        <p className="logo disabled">O.R</p>
         <menu className="menu">
           {menuItems.map(({ href, text }) => (
             <a className="menu-item disabled" href={href} key={text}>
